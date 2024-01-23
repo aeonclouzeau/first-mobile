@@ -9,10 +9,10 @@ export default function App() {
 		<Wrapper>
 			<Header title="Componentes base" />
 			<View>
-				<Text>Texto uno</Text>
+				<Text>Sin etiqueta</Text>
 				<FormItem />
-				<Text>Texto dos</Text>
-				<FormItem />
+				<Text>Con etiqueta</Text>
+				<FormItem label="correo electronico" />
 				<StatusBar style="auto" />
 			</View>
 		</Wrapper>
@@ -21,9 +21,10 @@ export default function App() {
 
 const styles = StyleSheet.create({
 	container: {
-		flex: 1,
-		backgroundColor: "#fff",
 		alignItems: "center",
+		backgroundColor: "#fff",
+		flex: 1,
 		justifyContent: "center",
+		paddingHorizontal: 40,
 	},
 });
