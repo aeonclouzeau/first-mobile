@@ -3,7 +3,7 @@ import { Ionicons, EvilIcons } from "@expo/vector-icons";
 import Colors from "../../constants/Colors";
 import Fonts from "../../constants/Fonts";
 
-export default function Header(title) {
+export default function Header({ title }) {
 	return (
 		<View style={styles.container}>
 			<TouchableOpacity>
