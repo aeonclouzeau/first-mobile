@@ -1,8 +1,8 @@
 export default {
 	family: {
-		light: "Monsterrat_300Light",
-		regular: "Monsterrat_400Regular",
-		bold: "Monsterrat_700Bold",
+		light: "Montserrat_300Light",
+		regular: "Montserrat_400Regular",
+		bold: "Montserrat_700Bold",
 	},
 	size: {
 		large: 22,
